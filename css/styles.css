@@ -1,0 +1,178 @@
+body {
+    font-family: "Roboto",sans-serif;
+    color: #212121;
+}
+:root {
+    --brand-color: #2196F3;
+    --text-color: #FFFFFF;
+    --logo-color: #000000;
+}
+/* Logo */
+.logo {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+    text-decoration: none;
+}
+.web span {
+    color: var(--logo-color);
+}
+/* header */
+.header a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+.header a:hover,
+.header a:focus,
+.header a:active {
+    color:var(--brand-color);
+}
+.posted a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+.posted a:hover,
+.posted a:focus,
+.posted a:active {
+    color: var(--brand-color);
+}
+/* Hero-main */
+.hero,
+.footer {
+    background-color: #2F303A;
+}
+.hero-main {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: var(--logo-color);
+    color: var(--text-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--brand-color);
+}
+/* Опис проєктів */
+.about h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.list-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.list-project {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* Чим займається кожен з команди */
+.section h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.list-names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.list-team {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* Hero-portfolio */
+.hero-portfolio button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-family: inherit;
+    cursor: pointer;
+}
+.hero-portfolio button:hover,
+.hero-portfolio button:focus {
+    background-color: var(--brand-color);
+    color: var(--text-color);
+}
+.headlines {
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: #212121;
+    cursor: pointer;
+}
+/* Футер */
+.footer .logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--brand-color);
+}
+.web-footer span {
+    color: var(--text-color);
+}
+.pages a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.link-pages {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #757575;
+    font-style: normal; 
+}
