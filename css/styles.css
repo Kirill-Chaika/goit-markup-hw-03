@@ -64,6 +64,7 @@ body {
 .header-container {
     display: flex;
     align-items: center;
+    background-color: var(--text-color);
 }
 .header a {
     font-weight: 500;
@@ -73,6 +74,9 @@ body {
     color: #212121;
     text-decoration: none;
     margin-right: 50px;
+}
+.header-link {
+    /* background-color: #ECECEC; */
 }
 
 .container {
@@ -155,6 +159,12 @@ body {
 .hero-btn:focus {
     background-color: var(--brand-color);
 }
+.container-portfolio .list {
+    display: block;
+    display: flex;
+    flex-wrap: wrap ;
+
+}
 /* Опис проєктів */
 .about h3 {
     font-weight: 700;
@@ -173,6 +183,7 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-top: 4px;
 }
 .list-project {
     font-weight: 400;
@@ -211,6 +222,9 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.section .team {
+    /* background-color: #F5F4FA; */
+}
 .list-team {
     font-size: 16px;
     line-height: 1.18;
@@ -228,9 +242,17 @@ body {
     letter-spacing: 0.03em;
     font-family: inherit;
     cursor: pointer;
+    margin-right: 8px;
+
+}
+.container button {
+    display: block;
+    display: flex;
+    margin: 0 auto;
 }
 .hero-portfolio  {
     padding-top: 94px;
+    padding-bottom: 50px;
 }
 .list {
     padding-bottom: 94px;
@@ -242,6 +264,15 @@ body {
 .team img {
     margin-right: 30px;
     margin-bottom: 30px;
+}
+.list li {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.list .some-item:nth-child(3),
+.list .some-item:nth-child(6),
+.list .some-item:nth-child(9) {
+    margin-right: 0;
 }
 
 .hero-portfolio button:hover,
@@ -255,6 +286,7 @@ body {
     letter-spacing: 0.06em;
     color: #212121;
     cursor: pointer;
+    margin-top: 20px;
 }
 /* Футер */
 .footer .logo-footer {
@@ -269,10 +301,6 @@ body {
 }
 .web-footer span {
     color: var(--text-color);
-}
-.pages {
-    
-    
 }
 .pages a {
     font-weight: 400;
@@ -295,4 +323,11 @@ body {
 .footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
+    
 }
+
+.pane {
+    display: none;
+}
+
+
