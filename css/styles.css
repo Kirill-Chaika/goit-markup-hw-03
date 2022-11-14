@@ -153,17 +153,15 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     font-family: inherit;
     cursor: pointer;
     background-color: var(--brand-color);
     color: var(--text-color);
     display: block;
-    margin: 0 auto;
-    margin: 20px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -358,6 +356,7 @@ body {
 }
 .link-footer .footer-link a{
     display: block;
+    margin-bottom: 9px;
 }
 
 
@@ -378,7 +377,9 @@ body {
     display: block;
     padding-bottom: 20px;
 }
-
+.link-footer {
+    flex-direction: column;
+}
 
 .pane {
     display: none;
