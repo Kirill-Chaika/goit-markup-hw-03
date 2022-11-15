@@ -27,6 +27,8 @@ ul {
 
 button {
     cursor: pointer;
+    display: block;
+    display: inline-flex;
 }
 img {
     display: block;
@@ -123,6 +125,7 @@ body {
 }
 .posted {
     justify-content: flex-end;
+    text-align: center;
 }
 .posted a:hover,
 .posted a:focus,
@@ -148,6 +151,9 @@ body {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .hero-btn {
     font-weight: 700;
@@ -159,10 +165,10 @@ body {
     background-color: var(--brand-color);
     color: var(--text-color);
     display: block;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
+
+
 .hero-btn:hover,
 .hero-btn:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -170,6 +176,7 @@ body {
     border-radius: 4px;
     background-color: #188CE8;
 }
+
 .container-portfolio .list {
     display: block;
     display: flex;
@@ -254,7 +261,7 @@ body {
     cursor: pointer;
     background-color: #F5F4FA;
 }
-.container button {
+.container .hero-portfolio-link button {
     display: block;
     display: flex;
     margin: 0 auto;
