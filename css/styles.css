@@ -68,6 +68,10 @@ body {
     align-items: center;
     background-color: var(--text-color);
 }
+.header li {
+    margin-right: 50px;
+}
+
 .header a {
     font-weight: 500;
     font-size: 14px;
@@ -75,10 +79,10 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
-    margin-right: 50px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.header-list-back a{
+.header .header-list-back {
     margin-right: 0;
 }
 
@@ -97,11 +101,12 @@ body {
     align-items: center;
 }
 .posted a {
-    padding: 20px;
-    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
 .link-mailto a {
-    padding-right: 0;
+    
 }
 .header a:hover,
 .header a:focus,
@@ -116,7 +121,12 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
-    padding-left: 50px;
+}
+.posted li {
+    margin-right: 50px;
+}
+.posted .link-mailto {
+    margin-right: 0;
 }
 .container ul {
     display: block;
@@ -166,7 +176,12 @@ body {
     color: var(--text-color);
     display: block;
     margin: 0 auto;
+    padding: 10px 32px;
 }
+button .hero {
+    padding: 10px;
+}
+
 
 
 .hero-btn:hover,
@@ -260,12 +275,14 @@ body {
     font-family: inherit;
     cursor: pointer;
     background-color: #F5F4FA;
+    padding: 6px 25px
 }
 .container .hero-portfolio-link button {
     display: block;
     display: flex;
     margin: 0 auto;
     margin-right: 8px;
+    border-radius: 4px;
     border: 0;
 }
 
@@ -315,6 +332,13 @@ body {
     cursor: pointer;
     margin-top: 20px;
 }
+.list-portfolio li a  {
+    text-decoration: none;
+}
+.list-portfolio li a .container {
+    width: inherit;
+    border: 1px solid #EEEEEE;
+}
 .section .container {
     padding-top: 0;
 }
@@ -322,6 +346,14 @@ body {
     background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.section-team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
 }
 .team li {
     background-color: var(--text-color);
@@ -363,6 +395,9 @@ body {
 }
 .link-footer .footer-link a{
     display: block;
+
+}
+.section-team .container {
     margin-bottom: 9px;
 }
 
@@ -382,10 +417,19 @@ body {
 }
 .logo-footer {
     display: block;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .link-footer {
     flex-direction: column;
+}
+.link-footer .pages {
+    margin-bottom: 9px;
+}
+.link-footer .pages a{
+    margin-bottom: 0;
+}
+.link-footer .footer-link {
+    margin-bottom: 9px;
 }
 
 .pane {
