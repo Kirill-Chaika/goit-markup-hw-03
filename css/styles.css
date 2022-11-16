@@ -338,6 +338,7 @@ button .hero {
 .list-portfolio li a .container {
     width: inherit;
     border: 1px solid #EEEEEE;
+    /* border-top: 0; */
 }
 .section .container {
     padding-top: 0;
